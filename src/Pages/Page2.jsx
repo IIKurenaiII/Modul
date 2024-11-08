@@ -1,16 +1,16 @@
 import React from 'react';
 import Navbar from '../Components/Navbar';
-import Misto from '../Components/MIsto';
 import Footer from '../Components/Footer';
+import Hobby from '../Components/Hobby';
 
-const HomePage = () => {
+const Page2 = () => {
 	return (
 		<div className='homepage'>
 			<Navbar />
-			<Misto />
+			<Hobby />
 			<Footer />
 		</div>
 	);
 };
 
-export default HomePage;
+export default Page2;

@@ -1,0 +1,16 @@
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #333;
+	color: white;
+	padding: 20px 0;
+}
+
+.footer__name {
+	padding: 20px;
+}

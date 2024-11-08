@@ -1,0 +1,31 @@
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: $color-yellow;
+
+	&__name {
+		padding: 20px;
+	}
+}
+
+.misto {
+	display: flex;
+	justify-content: center;
+
+	&__name {
+		padding: 30px;
+	}
+}
+
+.hobby {
+	display: flex;
+	justify-content: center;
+
+	&__text {
+		padding: 30px;
+	}
+}
